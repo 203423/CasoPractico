@@ -2,9 +2,9 @@ public class Regla {
     private String regla;
     private String clave;
 
-    public Regla(String regla, String clave) {
-        this.regla = regla;
+    public Regla(String clave, String regla) {
         this.clave = clave;
+        this.regla = regla;
     }
 
     public String getRegla() {
